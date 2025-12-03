@@ -9,7 +9,7 @@ from sqlalchemy import create_engine, text
 # --- CONFIGURATION (CHANGED FOR SQLITE) ---
 # NOTE: This path must be correct relative to where you run the Streamlit app!
 # Based on your previous setup, the path is relative to the project root.
-SQLITE_DB_PATH = "sqlite:///../database/Clinic.db" 
+SQLITE_DB_PATH = "sqlite:///../Clinic.db" 
 # Use 'sqlite:///Clinic.db' if the file is in the same directory as this script.
 
 # Create the SQLAlchemy engine for SQLite

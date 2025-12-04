@@ -236,4 +236,4 @@ elif menu == "Billing & Treatments":
         JOIN Appointments A ON T.appoint_id = A.appoint_id
         JOIN Patients P ON A.patient_id = P.patient_id
     """)
-    st.dataframe(df_treat, use_container_width=True)
+    st.dataframe(df_treat, use_container_width=True) 
